@@ -31,7 +31,7 @@ body {
 header {
   background-color: #ff0000;
 }
-nav {
+header nav {
   border-top: solid 5px #ffffff;
 }
 ul a {
@@ -63,6 +63,9 @@ img {
   display: inline;
   font-size: 1.3em;
 }
+#heroimg {
+  height: 450px;
+}
 h1 {
   padding: 30px 0;
   text-align: left;
@@ -71,12 +74,12 @@ h1 {
   color: #ffffff;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   padding: 1em;
 }
 h3 {
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 1em;
   font-weight: bold;
 }
@@ -131,10 +134,10 @@ footer .fa .fa:hover {
     height: 295px;
   }
   #logo {
-    width: 200px;
+    width: 250px;
   }
   #afterlogo {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   nav li {
     width: 100%;
@@ -142,9 +145,15 @@ footer .fa .fa:hover {
   ul a {
     font-size: 1.2em;
   }
+  #heroimg {
+    height: 300px;
+  }
 }
 @media only screen and (max-width: 481px) {
   p {
     font-size: 1em;
+  }
+  #heroimg {
+    height: 200px;
   }
 }

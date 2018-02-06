@@ -8,66 +8,58 @@ Programmer: Betsy Steinert */
 
 @import 'palette.less';
 @import 'mixins.less';
-
-
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-  background-color: @color3;
-  
+	content: "";
+	display: table;
+	clear: both;
+	background-color: @color3;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+	height: 100%;
 }
 
 body {
-  font-family: 'Raleway', 'Open Sans', sans-serif;
-  color: @color1;
-  background-color: @color2;
-  
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+	color: @color1;
+	background-color: @color2;
 }
-
 
 header {
 	background-color: @color3;
-
-	
-}
-
-nav {
-	
-  border-top: solid 5px @color2;
+	nav {
+		border-top: solid 5px @color2;
+	}
 }
 
 ul a {
-  display: block;
-  padding: 20px;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-  color: @color2;
-  text-decoration: none;
+	display: block;
+	padding: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: @color2;
+	text-decoration: none;
 }
 
 ul a:hover {
-  background: @color1;
+	background: @color1;
 }
 
 nav li {
-  float: right;
-  width: 25%;
-  letter-spacing: 1.5px;
-  
+	float: right;
+	width: 25%;
+	letter-spacing: 1.5px;
 }
-
 
 img {
 	width: 100%;
@@ -77,8 +69,6 @@ img {
 	display: inline;
 	width: 300px;
 	padding-top: 1em;
-	
-	
 }
 
 #afterlogo {
@@ -86,35 +76,33 @@ img {
 	font-size: 1.3em;
 }
 
-
-
-
-h1 {
-  padding: 30px 0;
-  text-align: left;
-  font-weight: bold;
-  font-style: italic;
-  color: @color2;
+#heroimg {
+	height: 450px;
 }
 
-
-
+h1 {
+	padding: 30px 0;
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+	color: @color2;
+}
 
 h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: bold;
 	padding: 1em;
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.5em;
 	padding: 1em;
 	font-weight: bold;
 }
 
 p {
-  .p();
-  font-size: 1.3em;
+	.p();
+	font-size: 1.3em;
 }
 
 footer {
@@ -127,74 +115,61 @@ footer {
 		text-decoration: none;
 		color: @color2;
 		.fa:hover {
-		opacity: 0.7;
+			opacity: 0.7;
 		}
 	}
 }
-
-
 
 
 /*---------------------------------------------------------
   M E D I A   Q U E R I E S
 ----------------------------------------------------------- */
 
-
 @media only screen and (max-width: 1024px) {
-
-  .hamburger {
-    cursor: pointer;
-    padding: 15px;
-    display: block;
-  }
-
-  .line {
-    border-bottom: 4px solid white;
-    width: 35px;
-    margin-bottom: 6px;
-  }
-  
-  .line:last-child {
-    margin-bottom: 0;
-  }
-	
-	
-	
-  .menu {
+	.hamburger {
+		cursor: pointer;
+		padding: 15px;
+		display: block;
+	}
+	.line {
+		border-bottom: 4px solid white;
+		width: 35px;
+		margin-bottom: 6px;
+	}
+	.line:last-child {
+		margin-bottom: 0;
+	}
+	.menu {
 		height: 0;
 		overflow: hidden;
 		transition: height 0.3s;
 	}
-	
-  .open {
-	 height: 295px;
+	.open {
+		height: 295px;
 	}
-	
-  #logo {
-	width: 200px;
-	
-	
-}
-	
+	#logo {
+		width: 250px;
+	}
 	#afterlogo {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
-
 	nav li {
 		width: 100%;
 	}
-	
 	ul a {
 		font-size: 1.2em;
 	}
-
-
+	#heroimg {
+		height: 300px;
+	}
 }
 
 @media only screen and (max-width: 481px) {
 	p {
 		font-size: 1em;
 	}
+	
+	#heroimg {
+	height: 200px;
 }
-
-
+}
