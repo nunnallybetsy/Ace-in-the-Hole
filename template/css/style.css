@@ -118,7 +118,7 @@ footer .fa .fa:hover {
     display: block;
   }
   .line {
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #ffffff;
     width: 35px;
     margin-bottom: 6px;
   }
@@ -152,6 +152,9 @@ footer .fa .fa:hover {
 @media only screen and (max-width: 481px) {
   p {
     font-size: 1em;
+  }
+  #afterlogo {
+    font-size: 0.9em;
   }
   #heroimg {
     height: 200px;
