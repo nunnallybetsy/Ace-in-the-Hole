@@ -1,7 +1,6 @@
  <?php 
 
-    echo '<header>
-    <img id="logo" src="images/Logo2.png">
+    echo '<img id="logo" src="images/logo.png">
 	<h1 id="afterlogo">Multisport Events</h1>
     <nav>
       <div href="#" class="hamburger">
@@ -12,9 +11,8 @@
       <ul class="clearfix menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Details</a></li>
-        <li><a href="#">Preperation</a></li>
+        <li><a href="#">Preparation</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-    </nav>
-  </header>'
+    </nav>'
     ?>
