@@ -1,9 +1,9 @@
  <?php 
 
-    echo '<img id="logo" src="images/logo.png">
+    echo '<img id="logo" alt="logo" src="images/logo.png">
 	<h1 id="afterlogo">Multisport Events</h1>
     <nav>
-      <div href="#" class="hamburger">
+      <div class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>

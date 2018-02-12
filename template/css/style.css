@@ -61,7 +61,7 @@ img {
 }
 #afterlogo {
   display: inline;
-  font-size: 1.3em;
+  font-size: 0.5em;
 }
 #heroimg {
   height: 450px;
@@ -116,7 +116,7 @@ footer .fa .fa:hover {
     width: 200px;
   }
   #afterlogo {
-    font-size: 0.9em;
+    font-size: 3vw;
   }
   p {
     font-size: 0.9em;
@@ -153,5 +153,10 @@ footer .fa .fa:hover {
   }
   #heroimg {
     height: 300px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #afterlogo {
+    font-size: 1.3em;
   }
 }
